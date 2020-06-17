@@ -1,0 +1,81 @@
+
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #f5f8f8;
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+.input-field>label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: transparent;
+    font-size: 1.1rem;
+    margin : 0px 5px;
+    border: #fff solid 1px ;
+    text-transform:none;
+}
+
+div.card{
+    background-color : #dbab64;
+}
+
+.vl {
+    border-left: 2px solid #d11515;
+    height: 400px;
+}
+
+a.action-btn{
+    color:rgb(243, 239, 239) ;
+    margin: 0px 5px;
+
+}
+a.action-btn:hover{
+    cursor: pointer;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:7%;
+  }
+
+.tablerow:hover {
+    background-color:#1a237e rgb(103, 16, 165);
+}
+
+body {
+    background-color:rgb(6, 77, 80);
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.padding {
+    margin: 2%;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.delete {
+    opacity: 25%;
+}
+
+.delete:hover {
+    color : #e91e63;
+    opacity: 500%;
+}
+
+.doc_table::-webkit-scrollbar {
+    display: none;
+    overflow: scroll;
+}
